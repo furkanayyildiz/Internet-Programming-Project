@@ -1,0 +1,49 @@
+.slider{
+    position: relative;
+    width: 1400px;
+    height: 500px;
+    margin: 25px auto 0px;
+    overflow: hidden;
+    margin-bottom: 45px;
+}
+
+.slider-content{
+    position: absolute;
+    width: 500%;
+    left: 0;
+    animation: slide 20s infinite;
+}
+
+.slider-content:hover{
+    animation-play-state: paused;
+}
+
+.slider-item{
+    width: 20%;
+    float: left;
+}
+
+@keyframes slide {
+    0%{
+        transform:translateX(0px);
+    }
+    16.6%{
+        transform:translateX(-1400px);
+    }
+    33.3%{
+        transform:translateX(-1400px);
+    }
+    49.9%{
+        transform:translateX(-2800px);
+    }
+    66.5%{
+        transform:translateX(-2800px);
+    }
+    83.1%{
+        transform:translateX(-0px);
+    }
+    100%{
+        transform:translateX(-0px);
+    }
+    
+}

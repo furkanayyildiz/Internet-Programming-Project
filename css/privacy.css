@@ -1,0 +1,19 @@
+/* About as Css Part */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+
+.main-privacy {
+  text-align: center;
+  background: linear-gradient(120deg, #001C36, #3e0000);
+  color:#2980b9;
+  font-family: 'Pattaya', sans-serif;
+  font-size: larger;
+  
+}
+
+.main-privacy li {
+  color: white;
+}
+

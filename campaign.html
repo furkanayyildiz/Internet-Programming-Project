@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TGI Fridays Restaurant & Bar</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/campaign.css" />
+  </head>
+
+  <body class="body">
+    <header class="header">
+      <div class="logo">
+          <a href="home.html"><img src="./images/logo.png" width="200" height="70" alt="Web Sitesi Logosu" /></a>
+      </div>
+      <a class="user-image" href="index.php"><div style="float: right; margin-right: 35px;"><img src="./images/user.png" alt="Login" width="45"></div></a>
+      <nav class="navbar">
+              
+          <ul>
+              <li class="navbar-li"><a href="home.html">Main Page</a></li>
+              <li class="navbar-li"><a href="menu.html">Menu Listing</a></li>
+              <li class="navbar-li"><a href="location.html">Locations</a></li>
+              <li class="navbar-li"><a href="campaign.html">Campaign</a></li>
+              <li class="navbar-li"><a href="about.html">About us</a></li>
+              
+
+          </ul>
+      </nav>
+    
+  </header>
+    <!-- LEFT SIDE-->
+    <div class="campaign">
+      <div class="left-campaigns">
+        <div class="left-campaigns-title">
+          <h2>Weekly Campaigns</h2>
+        </div>
+        <div class="four-item">
+          <div class="left-campaigns-items">
+            <img src="images/campaign1.png" alt="weekly-campaigns" />
+            <button id="first-button">Inspect The Campaign</button>
+          </div>
+          <div class="left-campaigns-items">
+            <img src="images/campaign2.png" alt="weekly-campaigns" />
+            <button id="second-button">Inspect The Campaign</button>
+          </div>
+          <div class="left-campaigns-items">
+            <img src="images/campaign3.png" alt="weekly-campaigns" />
+            <button id="third-button">Inspect The Campaign</button>
+          </div>
+          <div class="left-campaigns-items">
+            <img src="images/campaign4.png" alt="weekly-campaigns" />
+            <button id="fourth-button">Inspect The Campaign</button>
+          </div>
+        </div>
+      </div>
+      <!-- RİGHT SIDE-->
+      <div class="right-campaigns">
+        <div class="right-campaigns-items">
+          <h2>Special Campaigns</h2>
+        </div>
+        <div class="right-campaigns-items">
+          <img
+            src="images/campaign5.png"
+            alt="special-campaigns"
+            onclick="image()"
+          />
+        </div>
+        <div class="right-campaigns-items">
+          <img
+            src="images/campaign6.png"
+            alt="special-campaigns"
+            onclick="image2()"
+          />
+        </div>
+        <div class="right-campaigns-items">
+          <img
+            src="images/campaign7.png"
+            alt="special-campaigns"
+            onclick="image3()"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="modal-right-top" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Valentine's Day Campaign</h2>
+        </div>
+        <div class="modal-body">
+          <p>
+            <b>25% </b>discount on 2 menus for our couples special for
+            Valentine's Day.
+          </p>
+          <p>
+            In addition, up to <b> 50% </b>discount on all our desserts so that
+            you have a sweet night.
+          </p>
+        </div>
+        <div class="modal-footer">
+          <h3>2H3F</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="modal-right-center" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Mother's Day Campaign</h2>
+        </div>
+        <div class="modal-body">
+          <p>
+            We wanted our mothers to offer discounts as good as they do on this
+            very precious day.
+          </p>
+          <p>1 Cake + 1 Tea = <del> 25 tl</del></p>
+          <p>
+            It is just <b><ins>13 tl</ins></b>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <h3>2H3F</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- The Modal -->
+    <div id="modal-right-bottom" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Father's Day Campaign</h2>
+        </div>
+        <div class="modal-body">
+          <p>
+            All dads love to eat meat on the grill. We know this too and we come
+            to our fathers like a king with a menu like a king.
+          </p>
+          <p>Buy 2 meat menus <b>pay only 1 meat menu</b> price</p>
+        </div>
+        <div class="modal-footer">
+          <h3>2H3F</h3>
+        </div>
+      </div>
+    </div>
+    <!-- The Modal -->
+    <div id="modal-left-first" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Let's eat sweet talk sweet</h2>
+        </div>
+        <div class="modal-body">
+          <p>
+            If you buy 1 of our selected milk desserts, the first coffee next to
+            you is free.
+          </p>
+          <p>Valid on <ins>Saturdays </ins> only</p>
+        </div>
+        <div class="modal-footer">
+          <h3>2H3F</h3>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-left-second" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Discounted meats are sweeter than honey</h2>
+        </div>
+        <div class="modal-body">
+          <p>25% discount on kebab menus on Thursdays</p>
+          <p>1 Kebap Menu <del> 20 tl</del></p>
+          <p>
+            It is just <b><ins>15 tl</ins></b>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <h3>2H3F</h3>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-left-third" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>Take 1 ice cream 2 times relax on this hot day</h2>
+        </div>
+        <div class="modal-body">
+          <p>
+            Summer is here and the weather is warming up. We are coming with an
+            ice cold campaign that will cool you down on these hot days.
+          </p>
+          <p>
+            Buy 1 ice cream on <ins>Saturday and Sunday</ins> get
+            <b>1 free</b> ice creams
+          </p>
+        </div>
+        <div class="modal-footer">
+          <h3>2H3F</h3>
+        </div>
+      </div>
+    </div>
+
+    <div id="modal-left-fourth" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <div class="modal-header">
+          <span class="close">&times;</span>
+          <h2>welcome June</h2>
+        </div>
+        <div class="modal-body">
+          <p>
+            Hamburgers don't go without coke. Buy another hamburger, don't worry
+            about the price of your drink.
+          </p>
+          <p>
+            Buy 2 hamburger menus for the whole month of June and
+            <b>the first drink is free</b>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <h3>2H3F</h3>
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container">
+        <hr style="margin-bottom: 20px" />
+        <div class="row">
+          <div class="footer-col">
+            <h4>2H3F</h4>
+            <ul>
+              <li><a href="privacy.html">Privacy </a></li>
+              <li><a href="#">Complaint </a></li>
+              <li><a href="#">Opinion the user</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow us</h4>
+            <div class="social-links">
+              <a href="#"><i class="fa fa-facebook-f"></i></a>
+              <a href="#"><i class="fa fa-twitter"></i></a>
+              <a href="#"><i class="fa fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h4>Contact Us</h4>
+            <input
+              type="email"
+              name="email"
+              id="input-email"
+              placeholder="E-mail"
+            />
+            <textarea
+              name="textarea"
+              class="textarea"
+              id="textarea-email"
+              cols="30"
+              rows="5"
+              placeholder="Type Here..."
+            ></textarea
+            ><br />
+            <div class="buttons">
+              <button>Send</button>
+            </div>
+          </div>
+        </div>
+        <br />
+        <hr />
+        <div class="footer-bottom">
+          <br />
+          <p>
+            copyright &copy; 2021 TGI Fridays Restaurant & Bar designed
+            <span>2H3F</span>
+          </p>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/campaign.js"></script>
+  </body>
+</html>

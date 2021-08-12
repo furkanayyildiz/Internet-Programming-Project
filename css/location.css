@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+
+body {
+	background: linear-gradient(120deg, #001C36, #3e0000);
+  }
+
+.orta{
+	width: 100%;
+}
+
+.orta .div-left{
+	width: 10%;
+	float: left;
+}
+
+.orta .div-left #imgl{
+	position: relative;
+	float: right;
+}
+
+.orta .div-center{
+	position: relative;
+	width: 80%;
+	margin: 30px auto 0px;
+	
+}	
+ 
+.orta .div-right{
+	width: 10%;
+	float: right;
+}
+.orta .div-right #imgr{
+	position: relative;
+	float: left;
+}
+
+.location-top p{
+	color:white;
+	font-size: larger;
+}
+.location-top P{
+	margin: 0px auto 50px;
+}
+
+.location-bottom{
+	margin: 0px auto 70px;
+}
+
+.location-top h1 p{
+	color: #e91e63;
+	
+}
+
+ p{
+		font-family: 'Pattaya', sans-serif;
+	 
+ }

@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Molle:ital@1&display=swap');
+.main {
+  margin: 10px auto 0px;
+  background: linear-gradient(100deg, #001c36, #3e0000);
+}
+table {
+  width: 100%;
+  height: 100%;
+}
+table,
+th,
+td {
+  /*border: 1px solid black;*/
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 tr:nth-child(even) {
+  background-color: #c7c3c3;
+}
+#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+#t01 th {
+  background-color: #b91300;
+  color: white;
+}
+/*  MENU */
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+.menu {
+  width: 100%;
+  height: 70%;
+  text-align: center;
+}
+.menu h1 {
+  color: #ff9933;
+  text-shadow: -1px -1px #fb6, 1px 1px #d60, -3px 0 4px #000;
+  font-family: 'Great Vibes', cursive;
+  font-size: 90px;
+  line-height: 150px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+  text-shadow: 0 1px 1px #fff;
+  height: 100%;
+}
+
+.menu-type {
+  text-align: center;
+  padding: 10px;
+  height: 30%;
+}
+.menu-type li {
+  display: inline;
+  margin: 10px 50px;
+  font-family: Arial, Helvetica, Arial, sans-serif;
+  font-size: 120%;
+}
+.menu-type li a:hover {
+  color: #ff9933;
+}
+.menu-type a {
+  text-decoration: none;
+  font-weight: 800;
+  color: white;
+  font-size: x-large;
+}
+.menues {
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+/*.titles {
+  display: inline-flex;
+  margin: 5px;
+  font-family: Arial, Helvetica, Arial, sans-serif;
+  align-items: center;
+}
+*/
+.menu-style {
+  display: flex;
+  height: 33%;
+  padding: 10px;
+}
+.table-style {
+  width: 50%;
+  padding: 14px 10px 0px 10px;
+}
+.img-style {
+  width: 50%;
+  padding: 14px 10px 0px 10px;
+}
+#drinks {
+  height: 100%;
+  width: 100%;
+}
+#foods {
+  height: 100%;
+  width: 100%;
+}
+#deserts {
+  height: 100%;
+  width: 100%;
+}
